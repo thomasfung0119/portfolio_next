@@ -1,0 +1,32 @@
+.Expertise
+{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+.Expertise h2{
+    position:relative;
+    color: var(--foreground);
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Expertise .CardList{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px;
+    gap: 120px;
+}

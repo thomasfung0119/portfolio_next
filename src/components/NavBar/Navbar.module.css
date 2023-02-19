@@ -1,0 +1,85 @@
+.NavBar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 999;
+}
+
+.NavBar .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px 60px;
+    background: var(--headercolor);
+    user-select: none;
+}
+
+.NavBar .header.sticky{
+    padding: 20px 100px 40px;
+}
+
+.NavBar .header .logo{
+    position: relative;
+    font-weight: bolder ;
+
+    background: linear-gradient(45deg, #00b3fe, #fe00fe);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+.NavBar .header .choices{
+    position: relative;
+    display: flex;
+    color: var(--headerdefaultfontcolor);
+    transition: 0.6s;
+}
+
+.NavBar .header.sticky .choices{
+    color: var(--headerfontcolor);
+}
+
+.NavBar .header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar .header ul li{
+    position: relative;
+    list-style: none;
+}
+
+.NavBar .header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.translationlink{
+    margin:  0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.themebutton{
+    margin:  0 15px;
+    cursor: pointer;
+    user-select: none;
+}

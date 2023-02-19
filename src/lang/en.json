@@ -1,0 +1,23 @@
+{
+    "page.home.section1": "Section 1",
+    "page.home.section2": "Section 2",
+    "page.home.section3": "Section 3",
+    "page.home.description": "You are currently viewing the homepage in English 🚀",
+
+    "page.landing.welcome": "Hi, My Name is",
+    "page.landing.name": "Thomas Fung",
+    "page.landing.who": "I am a",
+    "page.landing.role1": "Software Developer?",
+    "page.landing.role2": "Fullstack Developer?",
+    "page.landing.role3": "Quantitative Developer?",
+
+    "page.expertise.title":"MY EXPERTISE",
+    "page.expertise.frontendTitle":"Frontend Development",
+    "page.expertise.frontendContent":"I am experienced with React.js and Vue.js, professional in HTML, CSS, and JS. I created E-commerce websites and trading dashboards in the past.",
+    "page.expertise.backendTitle":"Backend Development",
+    "page.expertise.backendContent":"I am experienced with Spring, dot NET Framework, and dot NET Core, professional in C++, C#, Java. I created HFT System, Data Scrapping Systems, and Rest APIs in the past.",
+    "page.expertise.quantTitle":"Quant Development",
+    "page.expertise.quantContent":"I am experienced in Python Modelling and Backtesting, good understanding of finance and equity. I created crypto funding-rate models and LSTM AI trading model in the past.",
+    
+    "page.footer.copyright":"© 2022 Created by Thomas Fung with passion | All Right Reserved"
+}

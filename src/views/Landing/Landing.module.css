@@ -1,0 +1,131 @@
+
+.Landing
+{
+    position: relative;
+    max-width:100vw;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Landing .background{
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    right:0;
+    
+}
+
+@media (max-width: 900px){ 
+    .Landing .background{  
+        height:50vh;
+        width:1200px;
+        top:50vh;
+    }
+}
+
+.Landing .title{
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+
+.Landing .videoLink{
+    position: absolute;
+    top: 70vh;
+    left: 10vw;
+}
+
+.Landing .scroll{
+    position: relative;
+    height: 95vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.Landing .scroll.disappear{
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.Landing .scroll img{
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 40px); 
+    height: 70px; 
+}
+
+.Landing h2{
+    position: relative;
+    background: linear-gradient(45deg, #00b3fe, #fe00fe);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 400;
+    font-size: 4em;
+    letter-spacing: 0.05em;
+    z-index: 999;
+}
+
+.Landing h3{
+    position: relative;
+    color: var(--foreground);
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+    z-index: 999;
+}
+
+.Landing h4{
+    position: relative;
+    color: var(--foreground);
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    z-index: 999;
+}
+
+.Landing h4 a{
+    color: #74e3ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Landing h4 a:hover{
+    color: #2b39ff;
+}
+
+@media (max-width: 900px){ 
+    .Landing .title{
+        display: flex;
+        margin-top: -50px;
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Landing h2{
+        font-size: 4em;
+    }
+    .Landing h3{
+        font-size: 3em;
+    }
+    .Landing h4{
+        font-size: 2em;
+    }    
+}
+@media (max-width: 600px){ 
+    .Landing h2{
+        font-size: 3.5em;
+    }
+    .Landing h3{
+        font-size: 2.5em;
+    }
+    .Landing h4{
+        font-size: 1.5em;
+    }    
+}

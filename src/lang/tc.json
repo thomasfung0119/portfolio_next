@@ -1,0 +1,23 @@
+{
+    "page.home.section1": "部分 1",
+    "page.home.section2": "部分 2",
+    "page.home.section3": "部分 3",
+    "page.home.description": "您目前正在查看繁體中文主頁🚀",
+
+    "page.landing.welcome": "你好, 我是",
+    "page.landing.name": "馮淦琨",
+    "page.landing.who": "一名",
+    "page.landing.role1": "軟件開發人員?",
+    "page.landing.role2": "全棧開發人員?",
+    "page.landing.role3": "量化開發人員?",
+
+    "page.expertise.title":"主要專長",
+    "page.expertise.frontendTitle":"前端開發",
+    "page.expertise.frontendContent":"曾使用 React.js 和 Vue.js，並具有 HTML、CSS 和 JS 經驗。 過去曾參與網上交易平台開發及高頻交易數據可視化。",
+    "page.expertise.backendTitle":"後端開發",
+    "page.expertise.backendContent":"曾使用 Spring 及 .NET Core ，並具有 Java 和 C# 經驗。 過去曾參與 Restful API 服務開發、網絡爬虫開發及高頻交易系統開發。",
+    "page.expertise.quantTitle":"量化開發",
+    "page.expertise.quantContent":"曾使用 Python 建模和回測，並具有一定金融知識。過去曾參與加密貨幣交易模型開發和LSTM AI交易模型開發，並部署於交易系統。",
+
+    "page.footer.copyright":"© 馮淦琨於2022年開發 | 本人將保留所有專利權利"
+}
